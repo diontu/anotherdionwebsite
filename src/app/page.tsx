@@ -1,12 +1,17 @@
-import ParallaxTest from "@/app/sections/parallax-test";
-import PageSection from "@/components/page-section";
+import Landing from "@/app/sections/landing";
+import Projects from "@/app/sections/projects";
+import Services from "@/app/sections/services";
+import Skills from "@/app/sections/skills";
+import Unique from "@/app/sections/unique";
 
 export default function Home() {
   return (
     <>
-      <PageSection>hello</PageSection>
-      <ParallaxTest />
-      <PageSection>hello</PageSection>
+      <Landing />
+      <Projects />
+      <Services />
+      <Skills />
+      <Unique />
     </>
   );
 }

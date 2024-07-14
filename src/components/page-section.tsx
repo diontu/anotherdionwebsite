@@ -14,7 +14,7 @@ const PageSection = ({ fitContent, className, children }: PageSectionProps) => {
     <div
       className={`w-full ${
         fitContent ? "page-section-content" : "page-section-page"
-      } relative px-[var(--default-padding)] ${className}`}
+      } relative page-section ${className}`}
     >
       {children}
     </div>

@@ -83,12 +83,21 @@
   .page-section-content {
     height: 100%;
   }
-  .heading {
-    font-size: 60px;
-    font-weight: 700;
+  .page-section {
+    margin: 0 auto;
+    padding: 0 min(7.5%, 170px);
+    max-width: min(85%, 1900px);
+  }
+  .heading-lg {
+    font-size: 64px;
+  }
+  .heading-sm {
+    font-size: 48px;
   }
   .subheading {
-    font-size: 12px;
-    font-weight: 700;
+    font-size: 16px;
+  }
+  .text {
+    color: #6d6d6d;
   }
 }
