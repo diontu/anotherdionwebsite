@@ -5,7 +5,11 @@ const Heading = ({
   size?: "sm" | "lg";
   children: React.ReactNode;
 }) => {
-  return <div className={`heading-${size}`}>{children}</div>;
+  return (
+    <div className={`${size === "sm" ? "heading-sm" : "heading-lg"}`}>
+      {children}
+    </div>
+  );
 };
 
 export default Heading;
