@@ -12,7 +12,7 @@ const ParallaxImage = ({ src, parallaxProps }: ParallaxImageProps) => {
     <img
       src={src}
       ref={imageRef}
-      className="absolute object-cover object-center scale-150 w-full h-[120%] -top-10"
+      className="object-cover object-center scale-150 w-full h-[120%] -top-10"
     />
   );
 };
