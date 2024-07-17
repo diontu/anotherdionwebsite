@@ -4,6 +4,7 @@ import "./globals.css";
 import Footer from "@/components/footer";
 import PageSection from "@/components/page-section";
 import { FOOTER_NAV, LEGAL_NAV } from "@/app/constants";
+import "@fortawesome/fontawesome-svg-core/styles.css";
 
 const inter = Inter({ subsets: ["latin"] });
 

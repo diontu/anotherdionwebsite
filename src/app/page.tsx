@@ -1,3 +1,4 @@
+import Contact from "@/app/sections/contact";
 import Landing from "@/app/sections/landing";
 import Projects from "@/app/sections/projects";
 import Services from "@/app/sections/services";
@@ -12,6 +13,7 @@ export default function Home() {
       <Services />
       <Skills />
       <Unique />
+      <Contact />
     </>
   );
 }

@@ -6,7 +6,7 @@ import Highlight from "@/components/text-style/highlight";
 
 export default function Unique() {
   return (
-    <PageSection className="flex flex-col justify-center mt-10">
+    <PageSection className="flex flex-col mt-10">
       <div className="max-w-[500px]">
         <Heading>
           What makes me <Mark>different</Mark>?

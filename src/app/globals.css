@@ -102,6 +102,22 @@
   .text {
     color: #6d6d6d;
   }
+  .gradient-text {
+    background: var(--fallback-gradient); /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #ebda4b,
+      var(--fallback-gradient)
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #ebda4b,
+      var(--fallback-gradient)
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
   .gradient {
     background: var(--fallback-gradient); /* fallback for old browsers */
     background: -webkit-linear-gradient(
