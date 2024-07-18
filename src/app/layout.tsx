@@ -23,11 +23,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <main className="flex flex-col">{children}</main>
         <PageSection fitContent className="pt-10 pb-10">
-          <Footer
-            businessName="Shadcn"
-            footerNav={FOOTER_NAV}
-            legalNav={LEGAL_NAV}
-          />
+          <Footer businessName="Dion" legalNav={LEGAL_NAV} />
         </PageSection>
       </body>
     </html>

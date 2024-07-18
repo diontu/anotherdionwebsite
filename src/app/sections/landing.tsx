@@ -2,14 +2,15 @@
 
 import Heading from "@/components/heading";
 import PageSection from "@/components/page-section";
-import { ParallaxImage } from "@/components/parallax";
 import Subheading from "@/components/subheading";
 import Mark from "@/components/text-style/mark";
 import { Badge } from "@/shadcn-components/ui/badge";
 import { Button } from "@/shadcn-components/ui/button";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 
 export default function Landing() {
+  const router = useRouter();
   return (
     <PageSection className="flex justify-around items-center mt-10">
       <div className="max-w-[500px]">
@@ -27,7 +28,7 @@ export default function Landing() {
           <Subheading>I can help you build your next great project.</Subheading>
         </div>
         <div className="pt-5">
-          <Button>Get in touch</Button>
+          <Button onClick={() => router.push("/#contact")}>Get in touch</Button>
         </div>
       </div>
       <div className="max-w-[300px]">

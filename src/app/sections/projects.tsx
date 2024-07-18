@@ -1,6 +1,7 @@
 import Heading from "@/components/heading";
 import PageSection from "@/components/page-section";
 import Subheading from "@/components/subheading";
+import Highlight from "@/components/text-style/highlight";
 
 import {
   Carousel,
@@ -16,16 +17,20 @@ export default function Projects() {
       className="flex justify-between mt-[160px] mb-[320px]"
       fitContent
     >
-      <div className="max-w-[500px]">
+      <div className="w-2/5">
         <Heading>Projects</Heading>
         <Subheading>
-          Explore the projects I have built and some of my favourites.
+          You can explore a selection of my work, highlighting my expertise in
+          web development and UI/UX design. Each project demonstrates my
+          commitment to creating{" "}
+          <Highlight>high-quality, user-centric solutions.</Highlight> Click on
+          any project to learn more about the process and technologies used.
         </Subheading>
       </div>
-      <Carousel>
+      <Carousel className="w-2/5">
         <CarouselContent>
           <CarouselItem>
-            <div className="min-w-[200px] h-[300px]">Image</div>
+            <div className="h-[300px]">Image</div>
           </CarouselItem>
           <CarouselItem>...</CarouselItem>
           <CarouselItem>...</CarouselItem>

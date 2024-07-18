@@ -8,7 +8,7 @@ export default function Contact() {
   return (
     <PageSection className="flex flex-col mt-10">
       <div className="max-w-[500px]">
-        <Heading>
+        <Heading id="contact">
           Get in touch with me <Mark>now</Mark>
         </Heading>
         <Subheading>

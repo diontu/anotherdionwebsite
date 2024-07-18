@@ -11,16 +11,16 @@ import { faDesktop } from "@fortawesome/free-solid-svg-icons";
 
 const services = [
   {
-    icon: faRocket,
-    title: "Frontend + backend development",
-    description:
-      "I can develop or assist in developing your next great project.",
-  },
-  {
     icon: faDesktop,
     title: "Website development",
     description:
       "I create responsive, user-friendly websites and web applications using modern technologies.",
+  },
+  {
+    icon: faRocket,
+    title: "Frontend + backend development",
+    description:
+      "I can develop or assist in developing your next great project.",
   },
   {
     icon: faPalette,
@@ -31,8 +31,12 @@ const services = [
 ];
 
 export default function Services() {
+  // TODO: include a horizontal step mapping with each step that is clickable and renders the content of that step
   return (
-    <PageSection className="flex flex-col items-center text-center">
+    <PageSection
+      className="flex flex-col items-center text-center pt-36 pb-36 bg-slate-100"
+      fitContent
+    >
       <div className="max-w-[500px]">
         <Heading>Services</Heading>
         <Subheading>
