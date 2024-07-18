@@ -6,7 +6,7 @@ import Highlight from "@/components/text-style/highlight";
 
 export default function Contact() {
   return (
-    <PageSection className="flex flex-col mt-10">
+    <PageSection className="flex flex-col pt-36">
       <div className="max-w-[500px]">
         <Heading id="contact">
           Get in touch with me <Mark>now</Mark>
