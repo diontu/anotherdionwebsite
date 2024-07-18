@@ -7,7 +7,7 @@ import Image from "next/image";
 
 export default function Unique() {
   return (
-    <PageSection className="flex justify-center mt-10 gap-10 pt-36">
+    <PageSection className="flex justify-center mt-10 gap-10 pt-36 bg-slate-100">
       <div className="max-w-[500px] flex flex-col">
         <Heading>
           What makes me <Mark>different</Mark>?
