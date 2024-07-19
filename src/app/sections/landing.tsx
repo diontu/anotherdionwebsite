@@ -12,7 +12,7 @@ import { useRouter } from "next/navigation";
 export default function Landing() {
   const router = useRouter();
   return (
-    <PageSection className="flex justify-around items-center mt-10">
+    <PageSection className="flex justify-around items-center mt-10 bg-slate-100">
       <div className="max-w-[500px]">
         <Heading size="lg">
           Hi! I'm <Mark>Dion</Mark>
