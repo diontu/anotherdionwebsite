@@ -88,7 +88,10 @@ const skills = {
 
 export default function Skills() {
   return (
-    <PageSection className="flex flex-col items-center text-center mb-20 pt-36">
+    <PageSection
+      className="flex flex-col items-center text-center mb-20 pt-36"
+      fitContent
+    >
       <div className="max-w-[500px]">
         <Heading>My Skills</Heading>
         <Subheading>

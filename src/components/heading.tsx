@@ -1,17 +1,24 @@
+import classnames from "classnames";
+
 const Heading = ({
   id,
   size = "sm",
   children,
+  className,
 }: {
   id?: string;
-  size?: "sm" | "lg";
+  size?: "xsm" | "sm" | "lg";
   children: React.ReactNode;
+  className?: string;
 }) => {
+  const headingClasses = classnames({
+    "heading-xsm": size === "xsm",
+    "heading-sm": size === "sm",
+    "heading-lg": size === "lg",
+  });
+
   return (
-    <div
-      {...(id && { id })}
-      className={`${size === "sm" ? "heading-sm" : "heading-lg"}`}
-    >
+    <div {...(id && { id })} className={headingClasses + " " + className}>
       {children}
     </div>
   );

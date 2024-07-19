@@ -95,8 +95,15 @@
   .heading-sm {
     font-size: 48px;
   }
-  .subheading {
+  .heading-xsm {
     font-size: 16px;
+    font-weight: 700;
+  }
+  .subheading-lg {
+    font-size: 16px;
+  }
+  .subheading-sm {
+    font-size: 14px;
   }
   .text {
     color: #6d6d6d;
