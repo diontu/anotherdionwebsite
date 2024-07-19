@@ -1,3 +1,10 @@
+export const LINKS = [
+  {
+    title: "Contact",
+    path: "/#contact",
+  },
+];
+
 export const LEGAL_NAV = [
   {
     label: "Terms",

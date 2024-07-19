@@ -7,7 +7,7 @@ type FooterProps = {
       href: string;
     }[];
   }[];
-  legalNav: {
+  legalNav?: {
     label: string;
     href: string;
   }[];
@@ -46,17 +46,19 @@ const Footer = ({
       <hr className="mt-10 mb-5" />
       <div className="flex justify-between text-sm text-[var(--color-de-emphasized)]">
         <div>© Copyright {businessName} 2024</div>
-        <div className="flex gap-5">
-          {legalNav.map((link) => (
-            <a
-              key={link.label}
-              className="no-underline decoration-inherit"
-              href={link.href}
-            >
-              {link.label}
-            </a>
-          ))}
-        </div>
+        {legalNav && (
+          <div className="flex gap-5">
+            {legalNav.map((link) => (
+              <a
+                key={link.label}
+                className="no-underline decoration-inherit"
+                href={link.href}
+              >
+                {link.label}
+              </a>
+            ))}
+          </div>
+        )}
       </div>
     </>
   );

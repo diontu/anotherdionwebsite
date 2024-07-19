@@ -1,5 +1,6 @@
 "use client";
 
+import Background from "@/app/background";
 import Heading from "@/components/heading";
 import PageSection from "@/components/page-section";
 import Subheading from "@/components/subheading";
@@ -12,8 +13,9 @@ import { useRouter } from "next/navigation";
 export default function Landing() {
   const router = useRouter();
   return (
-    <PageSection className="flex justify-around items-center mt-10 bg-slate-100">
-      <div className="max-w-[500px]">
+    <PageSection className="flex justify-around items-center bg-slate-100">
+      <Background />
+      <div className="max-w-[500px] z-10">
         <Heading size="lg">
           Hi! I'm <Mark>Dion</Mark>
         </Heading>
