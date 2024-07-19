@@ -27,7 +27,7 @@ export default function Projects() {
           any project to learn more about the process and technologies used.
         </Subheading>
       </div>
-      <Carousel className="w-2/5">
+      <Carousel className="w-2/5 border-[1px] border-[var(--fallback-gradient)]">
         <CarouselContent>
           <CarouselItem>
             <div className="h-[300px]">Image</div>

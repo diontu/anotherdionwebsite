@@ -92,11 +92,13 @@ export default function Skills() {
       className="flex flex-col items-center text-center mb-20 pt-36"
       fitContent
     >
-      <div className="max-w-[500px]">
+      <div>
         <Heading>My Skills</Heading>
         <Subheading>
-          These are the tools I’m using right now. I’m not married to any tool
-          and would love to have the opportunity to learn more!
+          I create clean, minimalist websites using HTML, CSS, and JavaScript,
+          ensuring they are responsive, SEO-optimized, and user-friendly. I
+          offer custom solutions and provide ongoing maintenance and support to
+          keep your site performing at its best.
         </Subheading>
       </div>
       <div className="grid grid-cols-2 mt-10 gap-y-10 gap-x-32">

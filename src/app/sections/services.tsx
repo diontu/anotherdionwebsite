@@ -37,11 +37,14 @@ export default function Services() {
       className="flex flex-col items-center text-center pt-36 pb-36 bg-slate-100"
       fitContent
     >
-      <div className="max-w-[500px]">
+      <div>
         <Heading>Services</Heading>
         <Subheading>
-          These are the tools I'm using right now. I'm not married to any tool
-          and would love to have the opportunity to learn more!
+          I offer comprehensive web development services, including both front
+          and backend development, to create robust and efficient websites. My
+          expertise in UI/UX design ensures your site is not only functional but
+          also visually appealing and user-friendly. Let me bring your vision to
+          life with tailored, high-quality web solutions.
         </Subheading>
       </div>
       <div className="mt-10 grid grid-cols-3 gap-5">
