@@ -14,7 +14,7 @@ const PageSection = ({ fitContent, className, children }: PageSectionProps) => {
     <div
       className={`w-full ${
         fitContent ? "page-section-content" : "page-section-page"
-      } relative page-section ${className}`}
+      } relative page-section overflow-hidden ${className}`}
     >
       {children}
     </div>

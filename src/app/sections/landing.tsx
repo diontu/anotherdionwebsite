@@ -33,7 +33,7 @@ export default function Landing() {
           <Button onClick={() => router.push("/#contact")}>Get in touch</Button>
         </div>
       </div>
-      <div className="max-w-[300px]">
+      <div className="max-w-[300px] z-10">
         <Image
           src="/aa-diontu-headshot.jpg"
           width={500}

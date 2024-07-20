@@ -86,12 +86,12 @@ const standoutPoints = [
 
 export default function Unique() {
   return (
-    <PageSection className="flex justify-center mt-10 gap-10 pt-36 bg-slate-100 min-h-[850px]">
+    <PageSection className="flex justify-center mt-10 gap-10 pt-28 bg-slate-100 min-h-[850px]">
       <div className="max-w-[500px] flex flex-col">
         <Heading>
           What makes me <Mark>different</Mark>?
         </Heading>
-        <div className="pt-12">
+        <div className="pt-9">
           <Accordion
             type="single"
             className="w-full"
@@ -105,7 +105,7 @@ export default function Unique() {
                     {point.title}
                   </div>
                 </AccordionTrigger>
-                <AccordionContent className="text">
+                <AccordionContent className="text pt-2 pb-8">
                   {point.description}
                 </AccordionContent>
               </AccordionItem>

@@ -9,7 +9,8 @@ export default function Home() {
   return (
     <>
       <Landing />
-      <Projects />
+      {/* uncomment the below when the projects section is ready */}
+      {/* <Projects /> */}
       <Services />
       <Skills />
       <Unique />

@@ -20,7 +20,7 @@ const Navigation = ({
       <NavigationMenu className="flex py-4 pr-10 w-full bg-slate-100">
         <NavigationMenuList>
           {navLinks.map((link) => (
-            <NavigationMenuItem>
+            <NavigationMenuItem key={link.title}>
               <Link href={link.path} legacyBehavior passHref>
                 <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                   {link.title}
