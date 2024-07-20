@@ -89,7 +89,7 @@ const skills = {
 export default function Skills() {
   return (
     <PageSection
-      className="flex flex-col items-center text-center mb-20 pt-36"
+      className="flex flex-col items-center text-center mb-20 pt-28"
       fitContent
     >
       <div>

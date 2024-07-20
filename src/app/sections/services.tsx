@@ -34,7 +34,7 @@ export default function Services() {
   // TODO: include a horizontal step mapping with each step that is clickable and renders the content of that step
   return (
     <PageSection
-      className="flex flex-col items-center text-center pt-36 pb-36 bg-slate-100"
+      className="flex flex-col items-center text-center pt-28 pb-28 bg-slate-100"
       fitContent
     >
       <div>
