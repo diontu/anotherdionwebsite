@@ -17,7 +17,7 @@ export default function Landing() {
       <Background />
       <div className="max-w-[500px] z-10">
         <Heading size="lg">
-          Hi! I'm <Mark>Dion</Mark>
+          Hi! I&#39;m <Mark>Dion</Mark>
         </Heading>
         <Subheading>
           Website wizard. Frontend + full-stack developer. Father of a cat.

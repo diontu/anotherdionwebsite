@@ -98,7 +98,7 @@ export default function Unique() {
             defaultValue={standoutPoints[0].title}
           >
             {standoutPoints.map((point) => (
-              <AccordionItem value={point.title}>
+              <AccordionItem value={point.title} key={point.title}>
                 <AccordionTrigger className="font-bold">
                   <div>
                     <span className="mr-6">{point.icon}</span>

@@ -19,8 +19,8 @@ export default function Contact() {
           Get in touch with me <Mark>now</Mark>
         </Heading>
         <Subheading>
-          I'm only a contact form to get in touch with you. Feel free to send me
-          a message and I will get back to you as soon as possible.
+          I&#39;m only a contact form to get in touch with you. Feel free to
+          send me a message and I will get back to you as soon as possible.
         </Subheading>
       </div>
       <div className="mt-10 max-w-[500px] z-10">
