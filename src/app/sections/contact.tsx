@@ -25,11 +25,17 @@ export default function Contact() {
       </div>
       <div className="mt-10 max-w-[500px] z-10">
         <Card>
-          <CardContent className="py-5 flex flex-col gap-5">
-            <Input placeholder="Name" />
-            <Input placeholder="Email" />
-            <Textarea placeholder="Message" />
-            <Button>Submit</Button>
+          <CardContent className="py-5">
+            <form
+              className="flex flex-col gap-5"
+              action="https://formsubmit.co/diontu1@gmail.com"
+              method="POST"
+            >
+              <Input placeholder="Name" type="text" name="name" />
+              <Input placeholder="Email" type="email" name="email" />
+              <Textarea placeholder="Message" name="message" />
+              <Button type="submit">Submit</Button>
+            </form>
           </CardContent>
         </Card>
       </div>
