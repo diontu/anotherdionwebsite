@@ -92,7 +92,7 @@ export default function Skills() {
       className="flex flex-col items-center text-center mb-20 pt-28"
       fitContent
     >
-      <div>
+      <div className="max-w-[900px]">
         <Heading>My Skills</Heading>
         <Subheading>
           I create clean, minimalist websites using HTML, CSS, and JavaScript,

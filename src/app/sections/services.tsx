@@ -37,7 +37,7 @@ export default function Services() {
       className="flex flex-col items-center text-center pt-28 pb-28 bg-slate-100"
       fitContent
     >
-      <div>
+      <div className="max-w-[900px]">
         <Heading>Services</Heading>
         <Subheading>
           I offer comprehensive web development services, including both front
