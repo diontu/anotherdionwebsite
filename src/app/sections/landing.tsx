@@ -13,7 +13,7 @@ import { useRouter } from "next/navigation";
 export default function Landing() {
   const router = useRouter();
   return (
-    <PageSection className="flex justify-around items-center bg-slate-100">
+    <PageSection className="flex justify-around items-center bg-slate-100 gap-10">
       <Background />
       <div className="max-w-[500px] z-10">
         <Heading size="lg">
@@ -33,7 +33,7 @@ export default function Landing() {
           <Button onClick={() => router.push("/#contact")}>Get in touch</Button>
         </div>
       </div>
-      <div className="max-w-[300px] z-10">
+      <div className="max-w-[300px] z-10 hidden md:block">
         <Image
           src="/aa-diontu-headshot.jpg"
           width={500}

@@ -113,7 +113,7 @@ export default function Unique() {
           </Accordion>
         </div>
       </div>
-      <div className="relative min-w-[500px]">
+      <div className="relative min-w-[400px] hidden lg:block">
         <Image
           src="/dion-pic-1.png"
           width={200}

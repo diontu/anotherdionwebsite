@@ -47,7 +47,7 @@ export default function Services() {
           life with tailored, high-quality web solutions.
         </Subheading>
       </div>
-      <div className="mt-10 grid grid-cols-3 gap-5">
+      <div className="mt-10 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5">
         {services.map((service) => (
           <Card
             className="w-[250px] h-[210px] hover:border-[var(--fallback-gradient)] transition duration-400"

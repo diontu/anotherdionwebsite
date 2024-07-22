@@ -101,9 +101,9 @@ export default function Skills() {
           keep your site performing at its best.
         </Subheading>
       </div>
-      <div className="grid grid-cols-2 mt-10 gap-y-10 gap-x-32">
+      <div className="grid grid-cols-2 mt-10 gap-y-10 gap-x-8 md:gap-x-32">
         {Object.values(skills).map((skill) => (
-          <div className="w-[300px]" key={skill.title}>
+          <div className="md:w-[300px]" key={skill.title}>
             <div className="font-bold mb-4">{skill.title}</div>
             {Object.values(skill.competencyList).map((competency) => (
               <div className="mb-2" key={competency.title}>
