@@ -1,0 +1,10 @@
+@tailwind components;
+
+@layer components {
+  .page-section-page {
+    height: min(100vh, 840px);
+  }
+  .page-section-content {
+    height: 100%;
+  }
+}

@@ -39,6 +39,8 @@
     --color-de-emphasized: #b7b7b7;
     /* fallback gradient color */
     --fallback-gradient: #f09819;
+
+    --text-base-color: #6d6d6d;
   }
 
   .dark {
@@ -82,34 +84,8 @@
   body {
     @apply bg-background text-foreground;
   }
-  .page-section-page {
-    height: min(100vh, 840px);
-  }
-  .page-section-content {
-    height: 100%;
-  }
-  .page-section {
-    padding: 0 min(10%, 170px);
-    max-width: 100%;
-  }
-  .heading-lg {
-    font-size: 64px;
-  }
-  .heading-sm {
-    font-size: 48px;
-  }
-  .heading-xsm {
-    font-size: 16px;
-    font-weight: 700;
-  }
-  .subheading-lg {
-    font-size: 16px;
-  }
-  .subheading-sm {
-    font-size: 14px;
-  }
   .text {
-    color: #6d6d6d;
+    @apply text-[var(--text-base-color)];
   }
   .gradient-text {
     background: var(--fallback-gradient); /* fallback for old browsers */

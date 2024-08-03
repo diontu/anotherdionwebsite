@@ -1,4 +1,5 @@
 import classnames from "classnames";
+import "./heading.css";
 
 const Heading = ({
   id,

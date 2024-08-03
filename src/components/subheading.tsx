@@ -1,3 +1,5 @@
+import "./subheading.css";
+
 const Subheading = ({
   children,
   size = "lg",

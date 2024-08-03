@@ -1,0 +1,10 @@
+@tailwind components;
+
+@layer components {
+  .subheading-lg {
+    font-size: 16px;
+  }
+  .subheading-sm {
+    font-size: 14px;
+  }
+}
