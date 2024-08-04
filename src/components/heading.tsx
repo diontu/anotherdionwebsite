@@ -1,4 +1,4 @@
-import classnames from "classnames";
+import clsx from "clsx";
 import "./heading.css";
 
 const Heading = ({
@@ -12,7 +12,7 @@ const Heading = ({
   children: React.ReactNode;
   className?: string;
 }) => {
-  const headingClasses = classnames({
+  const headingClasses = clsx({
     "heading-xsm": size === "xsm",
     "heading-sm": size === "sm",
     "heading-lg": size === "lg",

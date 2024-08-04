@@ -1,4 +1,4 @@
-import classNames from "classnames";
+import clsx from "clsx";
 import gen from "random-seed";
 import { ParallaxComponent } from "@/components/parallax";
 
@@ -21,7 +21,7 @@ type BallProps = {
 };
 
 const Ball = ({ size, opacity, blur, className }: BallProps): JSX.Element => {
-  const ballClasses = classNames({
+  const ballClasses = clsx({
     [`absolute rounded-full animate-pulse bg-[var(--fallback-gradient)] ${className}`]:
       true,
     "w-[25px] h-[25px]": size === 15,
